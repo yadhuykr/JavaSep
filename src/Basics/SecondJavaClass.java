@@ -1,3 +1,5 @@
+package Basics;
+
 public class SecondJavaClass {
 
     public static void main(String[] args){
