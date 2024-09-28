@@ -13,6 +13,6 @@ public class NumbersDoWhile {
           sum=sum+i;
           i++;
         }while(i<=n);
-        System.out.println("Sum is :"+sum);
+        System.out.println("Sum is this :"+sum);
     }
 }
