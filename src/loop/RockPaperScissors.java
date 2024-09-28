@@ -7,7 +7,7 @@ public class RockPaperScissors {
     public static void main(String[] args) {
         String[] choices = {"Rock","Paper","Scissors"};
         Scanner sc = new Scanner(System.in);
-        System.out.println("This is Rock Paper Scissors match");
+        System.out.println("This is  Rock Paper Scissors match");
         System.out.print("How many rounds do you need :");
         int rounds=sc.nextInt();
         Random random = new Random();
