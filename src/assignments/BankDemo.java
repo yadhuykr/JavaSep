@@ -34,7 +34,7 @@ public class BankDemo {
                             balance = balance + deposit;
                             break;
                         }else {
-                            System.out.println("Wrong pin!!! Want to tr again? y for yes n for no");
+                            System.out.println("Wrong pin!!! Want to try again? y for yes n for no");
                             subinp = scanner.next();
                         }
                     }while(subinp.equalsIgnoreCase("y"));
@@ -44,6 +44,7 @@ public class BankDemo {
                         System.out.println("Enter the 4 digit pin to continue");
                         checkpin = scanner.nextInt();
                         if (pin == checkpin) {
+                            System.out.println("You are validated");
                             System.out.print("Enter the amount to withdraw: ");
                             withdrawal = scanner.nextFloat();
                             if (balance < withdrawal) {
@@ -54,7 +55,7 @@ public class BankDemo {
                             }
                             break;
                         } else {
-                            System.out.println("Wrong pin!!! Want to tr again? y for yes n for no");
+                            System.out.println("Wrong pin!!! Want to try again? y for yes n for no");
                             subinp = scanner.next();
                         }
                     }while(subinp.equalsIgnoreCase("y"));
