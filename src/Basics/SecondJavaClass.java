@@ -5,7 +5,7 @@ public class SecondJavaClass {
     public static void main(String[] args){
 
         int count =10;
-        double price = 12.23;
+        double price = 12.33;
         char tag = 'A';
         boolean isDiscount = false;
         float total = 120.23F;
