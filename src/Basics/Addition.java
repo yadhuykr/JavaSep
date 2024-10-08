@@ -4,7 +4,7 @@ public class Addition {
 
     public static void main (String[] args){
 
-        int x = 10;
+        int x = 12;
         int y = 10;
         int z = x + y;
 
