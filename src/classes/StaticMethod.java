@@ -18,7 +18,7 @@ public class StaticMethod{
     }
 
     {
-        System.out.println("Instance block ");
+        System.out.println("Instance block    ");
         int count =1;
         System.out.println(count);
     }
