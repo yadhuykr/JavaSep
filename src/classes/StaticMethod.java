@@ -9,7 +9,7 @@ public class StaticMethod{
     static {
         System.out.println("This is static block ");
         int count =1;
-        System.out.println(count);
+        System.out.println(count+" ");
     }
 
 
