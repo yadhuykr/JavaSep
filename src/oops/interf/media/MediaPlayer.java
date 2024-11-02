@@ -1,4 +1,4 @@
-package oops.interf.features.media;
+package oops.interf.media;
 
 public interface MediaPlayer {
 

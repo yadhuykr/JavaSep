@@ -1,4 +1,4 @@
-package oops.interf.features.devices;
+package oops.interf.devices;
 
 public interface MobilePhone {
 

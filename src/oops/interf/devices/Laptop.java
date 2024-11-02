@@ -1,12 +1,12 @@
-package oops.interf.features.devices;
+package oops.interf.devices;
 
 import oops.interf.features.Calculator;
 import oops.interf.features.Camera;
 import oops.interf.features.WebBrowser;
-import oops.interf.features.media.AudioPlayer;
-import oops.interf.features.media.VideoPlayer;
+import oops.interf.media.AudioPlayer;
+import oops.interf.media.VideoPlayer;
 
-public class SmartPhone extends Camera implements AudioPlayer, VideoPlayer, Calculator, WebBrowser, MobilePhone {
+public class Laptop extends Camera implements Calculator, WebBrowser, AudioPlayer, VideoPlayer  {
     @Override
     public void add() {
         System.out.println("Can Add two numbers ");
@@ -100,15 +100,5 @@ public class SmartPhone extends Camera implements AudioPlayer, VideoPlayer, Calc
     @Override
     public void skip() {
         System.out.println("Can skip audio and video");
-    }
-
-    @Override
-    public void makeCalls() {
-        System.out.println("Can make calls");
-    }
-
-    @Override
-    public void sendTexts() {
-        System.out.println("Can send texts");
     }
 }

@@ -1,4 +1,4 @@
-package oops.interf.features.devices;
+package oops.interf.devices;
 
 import oops.interf.features.Calculator;
 

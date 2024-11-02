@@ -1,9 +1,9 @@
-package oops.interf.features;
+package oops.interf;
 
-import oops.interf.features.devices.Ipad;
-import oops.interf.features.devices.Laptop;
-import oops.interf.features.devices.SmartPhone;
-import oops.interf.features.devices.SmartWatch;
+import oops.interf.devices.Ipad;
+import oops.interf.devices.Laptop;
+import oops.interf.devices.SmartPhone;
+import oops.interf.devices.SmartWatch;
 
 public class Main {
     public static void main(String[] args) {

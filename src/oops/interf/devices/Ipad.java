@@ -1,20 +1,20 @@
-package oops.interf.features.devices;
+package oops.interf.devices;
 
 import oops.interf.features.Calculator;
 import oops.interf.features.Camera;
 import oops.interf.features.WebBrowser;
-import oops.interf.features.media.AudioPlayer;
-import oops.interf.features.media.VideoPlayer;
+import oops.interf.media.AudioPlayer;
+import oops.interf.media.VideoPlayer;
 
-public class Laptop extends Camera implements Calculator, WebBrowser, AudioPlayer, VideoPlayer  {
+public class Ipad extends Camera implements Calculator, WebBrowser, AudioPlayer, VideoPlayer {
     @Override
     public void add() {
-        System.out.println("Can Add two numbers ");
+        System.out.println("Can add");
     }
 
     @Override
     public void subtract() {
-        System.out.println("Can Subtract two numbers ");
+        System.out.println("Can subtract");
     }
 
     @Override
